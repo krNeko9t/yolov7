@@ -25,11 +25,11 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 # 训练
 ## 数据集存放路径
-- e
+- {DISC_ROOT}
 - └──datasets
-     -   └──paris
-         -   ├──images
-         -   └──labels
+     -   └──{YOUR_DATASETS}
+         -   ├──images:val;train
+         -   └──labels:val;train
 
 
 ## 训练数据集
