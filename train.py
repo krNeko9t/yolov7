@@ -2,6 +2,7 @@ import argparse
 import logging
 import math
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import random
 import time
 from copy import deepcopy

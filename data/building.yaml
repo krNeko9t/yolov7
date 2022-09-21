@@ -1,0 +1,13 @@
+# path: ../datasets/paris/
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /datasets/mybeauty/images/train  # 118287 images
+val: /datasets/mybeauty/images/val  # 5000 images
+test: /datasets/mybeauty/images/test  # 5000 images
+# test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 8
+
+# class names
+names: ['retail', 'house', 'roof', 'officebuilding', 'garage', 'apartment', 'industrial', 'church']
